@@ -1,0 +1,48 @@
+
+nav{
+    background-color: rebeccapurple;
+    color: whitesmoke;
+    padding: 11;
+    margin: 0;
+    
+    
+    transition: background-color 0.7s;
+    
+  }
+  h1{
+    background-color: rebeccapurple;
+    color: whitesmoke;
+    padding: 11;
+    margin: 0;
+    transition: background-color 0.7s;
+    overflow: auto;
+  }
+  
+  nav a{
+    display: flex;
+    color: whitesmoke;
+    transition: background-color 0.7s;
+    flex-direction: column;
+  }
+ 
+  nav a:hover {
+    background-color: blue;
+    
+  }
+  nav:hover {
+    background-color: lightpink;
+  }
+  h1:hover {
+    background-color: lightpink;
+    color: blue;
+    overflow: auto;
+  }
+  header, section {
+    background: lightpink;
+    overflow: auto;
+    
+  }
+  section {
+    padding: 11;
+    
+  }
